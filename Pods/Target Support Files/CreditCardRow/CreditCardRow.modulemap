@@ -1,0 +1,6 @@
+framework module CreditCardRow {
+  umbrella header "CreditCardRow-umbrella.h"
+
+  export *
+  module * { export * }
+}

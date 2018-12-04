@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>772290877962-si4g7jopp5iih1e41svlb88i1l52mabv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.772290877962-si4g7jopp5iih1e41svlb88i1l52mabv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChWr_bDiBFlt0TAsjsIOHfp6-LAp4EfVc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>772290877962</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.freetime.freetime.FreeTime.Scooter</string>
+	<key>PROJECT_ID</key>
+	<string>scooter-b81e6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>scooter-b81e6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:772290877962:ios:269c5e060b4bfde0</string>
+	<key>DATABASE_URL</key>
+	<string>https://scooter-b81e6.firebaseio.com</string>
+</dict>
+</plist>

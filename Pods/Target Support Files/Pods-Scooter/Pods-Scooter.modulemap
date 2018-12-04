@@ -1,0 +1,6 @@
+framework module Pods_Scooter {
+  umbrella header "Pods-Scooter-umbrella.h"
+
+  export *
+  module * { export * }
+}

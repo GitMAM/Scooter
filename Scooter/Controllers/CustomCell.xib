@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BEC-oK-9x7" customClass="CreditCardCell" customModule="CreditCardRow">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BEC-oK-9x7" id="UPq-Hz-xot">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="111.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IcQ-wb-ZuL">
+                        <rect key="frame" x="8" y="0.0" width="304" height="111.5"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bWk-vu-J6g" customClass="PaddedTextField" customModule="CreditCardRow">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="Frm-xR-7gL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qag-zj-SfK">
+                                <rect key="frame" x="0.0" y="56" width="304" height="1"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="78r-hP-i1i"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k1Y-uE-xY5" customClass="PaddedTextField" customModule="CreditCardRow">
+                                <rect key="frame" x="0.0" y="56" width="152" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="c1Q-9x-ujg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="c1Q-9x-ujg"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfC-vK-EzX">
+                                <rect key="frame" x="152" y="56" width="1" height="56"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="042-xE-r5k"/>
+                                    <constraint firstAttribute="height" constant="1" id="nqj-Ri-9aP"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="nqj-Ri-9aP"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y0D-7W-JOZ" customClass="PaddedTextField" customModule="CreditCardRow">
+                                <rect key="frame" x="152" y="56" width="152" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="y0D-7W-JOZ" firstAttribute="leading" secondItem="k1Y-uE-xY5" secondAttribute="trailing" id="0pP-1c-HIs"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="leading" secondItem="bWk-vu-J6g" secondAttribute="leading" id="2T7-ac-UmP"/>
+                            <constraint firstAttribute="bottom" secondItem="k1Y-uE-xY5" secondAttribute="bottom" id="2ei-ko-tZe"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="width" secondItem="bWk-vu-J6g" secondAttribute="width" id="3pZ-sG-3ce"/>
+                            <constraint firstItem="qag-zj-SfK" firstAttribute="top" secondItem="bWk-vu-J6g" secondAttribute="bottom" id="6NW-og-xbh"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="width" secondItem="bWk-vu-J6g" secondAttribute="width" multiplier="0.5" id="7Tr-DG-qr9"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="top" secondItem="bWk-vu-J6g" secondAttribute="bottom" id="A7a-sk-QWr"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="leading" secondItem="IcQ-wb-ZuL" secondAttribute="leading" id="IlT-db-Jyf"/>
+                            <constraint firstItem="bWk-vu-J6g" firstAttribute="top" secondItem="IcQ-wb-ZuL" secondAttribute="top" id="KXN-M8-vDA"/>
+                            <constraint firstItem="y0D-7W-JOZ" firstAttribute="width" secondItem="bWk-vu-J6g" secondAttribute="width" multiplier="0.5" id="Kr0-3x-9L4"/>
+                            <constraint firstItem="qag-zj-SfK" firstAttribute="leading" secondItem="IcQ-wb-ZuL" secondAttribute="leading" id="MOu-E1-DTj"/>
+                            <constraint firstItem="bWk-vu-J6g" firstAttribute="height" secondItem="k1Y-uE-xY5" secondAttribute="height" id="OEJ-6w-xjl"/>
+                            <constraint firstAttribute="bottom" secondItem="y0D-7W-JOZ" secondAttribute="bottom" id="P2W-3U-YfT"/>
+                            <constraint firstAttribute="trailing" secondItem="y0D-7W-JOZ" secondAttribute="trailing" id="Rtk-48-8lD"/>
+                            <constraint firstItem="bWk-vu-J6g" firstAttribute="leading" secondItem="IcQ-wb-ZuL" secondAttribute="leading" id="Too-SD-VBa"/>
+                            <constraint firstItem="y0D-7W-JOZ" firstAttribute="leading" secondItem="k1Y-uE-xY5" secondAttribute="trailing" id="VID-97-Ad8"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="height" secondItem="y0D-7W-JOZ" secondAttribute="height" id="aoj-t1-zYR"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="height" secondItem="bWk-vu-J6g" secondAttribute="height" id="cNf-E3-w6D"/>
+                            <constraint firstItem="hfC-vK-EzX" firstAttribute="top" secondItem="k1Y-uE-xY5" secondAttribute="top" id="d6R-2m-GhQ"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="top" secondItem="bWk-vu-J6g" secondAttribute="bottom" id="fLI-hb-1bW"/>
+                            <constraint firstItem="k1Y-uE-xY5" firstAttribute="width" secondItem="y0D-7W-JOZ" secondAttribute="width" multiplier="2" id="ges-Ch-AEg"/>
+                            <constraint firstItem="hfC-vK-EzX" firstAttribute="leading" secondItem="k1Y-uE-xY5" secondAttribute="trailing" id="kDi-DE-vwx"/>
+                            <constraint firstItem="y0D-7W-JOZ" firstAttribute="height" secondItem="bWk-vu-J6g" secondAttribute="height" id="lcT-N7-7NE"/>
+                            <constraint firstItem="hfC-vK-EzX" firstAttribute="bottom" secondItem="k1Y-uE-xY5" secondAttribute="bottom" id="mVB-tG-n34"/>
+                            <constraint firstItem="y0D-7W-JOZ" firstAttribute="top" secondItem="bWk-vu-J6g" secondAttribute="bottom" id="ohH-0J-QFp"/>
+                            <constraint firstAttribute="trailing" secondItem="bWk-vu-J6g" secondAttribute="trailing" id="oln-OF-hrg"/>
+                            <constraint firstAttribute="trailing" secondItem="qag-zj-SfK" secondAttribute="trailing" id="pSl-MT-9LX"/>
+                            <constraint firstAttribute="bottom" secondItem="k1Y-uE-xY5" secondAttribute="bottom" id="yDp-pn-OsD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="OEJ-6w-xjl"/>
+                                <exclude reference="2ei-ko-tZe"/>
+                                <exclude reference="aoj-t1-zYR"/>
+                                <exclude reference="2T7-ac-UmP"/>
+                                <exclude reference="fLI-hb-1bW"/>
+                                <exclude reference="yDp-pn-OsD"/>
+                                <exclude reference="3pZ-sG-3ce"/>
+                                <exclude reference="ges-Ch-AEg"/>
+                                <exclude reference="0pP-1c-HIs"/>
+                                <exclude reference="P2W-3U-YfT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="IcQ-wb-ZuL" secondAttribute="trailing" constant="-8" id="MXj-xi-chz"/>
+                    <constraint firstItem="IcQ-wb-ZuL" firstAttribute="top" secondItem="UPq-Hz-xot" secondAttribute="top" id="fHh-Pl-MA4"/>
+                    <constraint firstAttribute="bottom" secondItem="IcQ-wb-ZuL" secondAttribute="bottom" id="wvq-VD-z8f"/>
+                    <constraint firstItem="IcQ-wb-ZuL" firstAttribute="leading" secondItem="UPq-Hz-xot" secondAttribute="leadingMargin" constant="-8" id="xQg-Cp-dz9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cvvField" destination="y0D-7W-JOZ" id="wlE-df-Jk8"/>
+                <outlet property="expirationField" destination="k1Y-uE-xY5" id="eVl-xk-rt2"/>
+                <outlet property="horizontalSeparator" destination="qag-zj-SfK" id="jtk-ff-NvT"/>
+                <outlet property="numberField" destination="bWk-vu-J6g" id="m8K-dN-2YN"/>
+                <outlet property="verticalSeparator" destination="hfC-vK-EzX" id="NMK-ms-lD7"/>
+            </connections>
+            <point key="canvasLocation" x="376" y="216"/>
+        </tableViewCell>
+    </objects>
+</document>
